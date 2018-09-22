@@ -1,0 +1,153 @@
+/*Base CSS*/
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img{
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+}
+
+html,
+body{ height: 100%}
+body{
+}
+a:hover{ text-decoration: none;}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color  */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+p{
+  margin: 0px 0 20px;
+}
+
+
+
+.section-bg {background-image: url(img/bg.jpeg);}
+
+.section-padding {
+    position: relative;
+    margin-top: 200px;
+}
+
+.section-bg {
+    position:  absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 59%;
+    background-size: cover;
+}
+
+.section-bg:after {
+    position:  absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:  100%;
+    content:  "";
+    background: #9fdb7f;
+    opacity: .9;
+}
+
+.section-padding .container {
+    position: relative;
+    z-index: 3;
+}
+
+.contact-form {
+    padding-top: 100px;
+    padding-bottom:  100px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.contact-form input:focus {border: 1px solid #ffffff;}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #faf8f8;
+    color: #000000;
+}
+
+.contact-form h2 {color: white;}
+
+input:focus, textarea:focus, button:focus {outline: none;}
+input:focus, textarea:focus, button:focus {outline: none;}
+
+.contact-form input[type=submit] {
+    width: auto;
+    padding: 12px 30px;
+    color: #3e9d09;
+    font-weight: 700;
+    background: #fff;
+}
+
+.appoinment-text {
+    padding-top: 141px;
+    background: #fff;
+    padding-left: 62px;
+}
+
+
+.appoinment-text h3 {
+    padding-bottom: 17px;
+    font-size: 29px;
+}
+
+.appoinment-text ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+.appoinment-text li {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: -36px;
+    margin-bottom: 15px;
+}
+.appoinment-text i.fa.fa-check {
+    color: #a4d884;
+    font-size: 20px;
+    padding-right: 19px;
+    padding-left: 0;
+}
+
+
+.appoinment-text .boxed-btn {
+    background: #94ca76;
+    display: inline;
+    padding: 10px 30px;
+    color: #f4eeee;
+}
+
+.appoinment-text .boxed-btn a {
+    color: #fff;
+}
+.contact-form h2{
+     transform: rotate(270deg);
+     position: absolute;
+     left: 0px;
+     top: 100px;
+     bottom: 100px;
+     font-size: 50px;
+}
