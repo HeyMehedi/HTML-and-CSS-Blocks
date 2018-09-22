@@ -1,0 +1,52 @@
+
+body {
+    color: #353434;
+    font-size: 15px;
+    line-height:  1.7;
+}
+
+h2.section-title {
+    font-size:  39px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2.section-title span {
+    color: #3a948f;
+}
+
+
+
+.section-bg-1 {
+    position:  relative;
+}
+
+.section-bg-1:after{
+	background-image: url(img/bg.jpeg);
+}
+.section-bg-1:after {
+    background-size: cover;
+    background-position: center;
+    left:  0;
+    top: 0;
+    width: 48%;
+    height: 100%;
+    content:  "";
+    position:  absolute;
+    background-color: #ddd;
+}
+
+span.fss {
+    font-size: 150%;
+    padding-left: 100px;
+    display: none;
+}
+.style-faq span[aria-expanded="true"] i.fas.fa-angle-up {
+    display: block;
+}
+.style-faq {
+    min-height: 457px;
+}
+.section-padding{
+	margin-top: 50px;
+}
