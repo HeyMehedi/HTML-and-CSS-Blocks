@@ -1,0 +1,67 @@
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.single-service-box {
+    border: 2px solid #e1e1e1;
+    text-align: center;
+}
+
+.service-box-bg {
+    height: 200px;
+    position: relative;
+}
+
+
+.service-box-bg h2 {
+    background: #f22;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 8%;
+    width: 84%;
+    margin: 0;
+    bottom: -29px;
+}
+
+.service-box-content {
+    padding: 30px;
+    padding-top: 45px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.service-box-content p:last-child {
+    margin: 0;
+}
+
+.single-service-box {}
+
+.service-box-content {}
+
+a.service-readmore {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 63px;
+}
+.service-box-bg {
+    height: 225px;
+    width: 100%;
+    background-size: cover;
+}
+
+.service-box-bg-1 {background-image: url(img/image1.jpg)}
+.service-box-bg-2 {background-image: url(img/image2.jpg)}
+.service-box-bg-3 {background-image: url(img/image3.jpg)}
+
+a:hover {
+    text-decoration: none;
+}

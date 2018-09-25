@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+/*Base CSS*/
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img{
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+}
+
+
+
+html,
+a:hover{ text-decoration: none;}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color  */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+p{
+  margin: 0px 0 20px;
+}
+
+
+
+
+
+.section-absolute-bg {background-image: url(img/image3.jpeg);}
+.abslute-bg-2 {background-image: url(img/image2.jpeg);}
+
+.section-padding {
+    background:  #212833;
+    color: #C1C6D1;
+    font-size: 13px;
+    line-height: 1.9;
+    padding: 80px 0;
+}
+
+.boxed-content h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+a.bordered-btn {
+    border: 1px solid #ddd;
+    color: #fff;
+    padding: 7px 30px;
+    display:  inline-block;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.boxed-content {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+.boxed-content:before {
+    position: absolute;
+    background: #70767A;
+    content: "";
+    height: 100px;
+    width: 1px;
+    left:  0;
+    top: 0;
+}
+
+.section-padding {
+    position: relative;
+    z-index: 1;
+}
+
+.section-absolute-bg {
+    position: absolute;
+    right:  0;
+    top: 0;
+    width:  50%;
+    height: 100%;
+    background-size:  cover;
+    background-position: center;
+    color: #000;
+}
+.absolute-bg-left .section-absolute-bg {
+    right: auto;
+    left: 0;
+}
+.absolute-bg-left .boxed-content {
+    margin-left: 70px;
+    padding-right: 0;
+}
+.section-absolute-bg:after {
+    position: absolute;
+    content:  "";
+    background:  #000;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+/*Base CSS*/
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img{
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+}
+
+
+
+html,
+a:hover{ text-decoration: none;}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color  */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+p{
+  margin: 0px 0 20px;
+}
+
+
+
+
+
+.section-absolute-bg {background-image: url(img/image3.jpeg);}
+.abslute-bg-2 {background-image: url(img/image2.jpeg);}
+
+.section-padding {
+    background:  #212833;
+    color: #C1C6D1;
+    font-size: 13px;
+    line-height: 1.9;
+    padding: 80px 0;
+}
+
+.boxed-content h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+a.bordered-btn {
+    border: 1px solid #ddd;
+    color: #fff;
+    padding: 7px 30px;
+    display:  inline-block;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.boxed-content {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+.boxed-content:before {
+    position: absolute;
+    background: #70767A;
+    content: "";
+    height: 100px;
+    width: 1px;
+    left:  0;
+    top: 0;
+}
+
+.section-padding {
+    position: relative;
+    z-index: 1;
+}
+
+.section-absolute-bg {
+    position: absolute;
+    right:  0;
+    top: 0;
+    width:  50%;
+    height: 100%;
+    background-size:  cover;
+    background-position: center;
+    color: #000;
+}
+.absolute-bg-left .section-absolute-bg {
+    right: auto;
+    left: 0;
+}
+.absolute-bg-left .boxed-content {
+    margin-left: 70px;
+    padding-right: 0;
+}
+.section-absolute-bg:after {
+    position: absolute;
+    content:  "";
+    background:  #000;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+.section-absolute-bg:before {
+  top: 100px;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #212833;
+  position: absolute;
+  content: "";
+  transform: rotate(90deg);
+}
+.absolute-bg-left .section-absolute-bg:before {
+  top: 100px;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #212833;
+  position: absolute;
+  content: "";
+  transform: rotate(270deg);
+  right: 0;
+}
