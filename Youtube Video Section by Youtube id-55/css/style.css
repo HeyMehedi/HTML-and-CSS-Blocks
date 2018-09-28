@@ -1,0 +1,82 @@
+a.single-video-link {
+    background: #fff;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 450px;
+    position: relative;
+    z-index: 100;
+    transition: .3s;
+}
+
+
+p.Showcase:after {
+    position: absolute;
+    background: #fff;
+    right: -50px;
+    content: "";
+    height: 2px;
+    width: 44px;
+    top: 17px;
+}
+p.Showcase:before {
+    position: absolute;
+    background: #fff;
+    left: -50px;
+    content: "";
+    height: 2px;
+    width: 44px;
+    top: 17px;
+}
+
+
+.video-overlay h2 {font-size: 34px; margin-top: -8px;}
+.video-overlay p {font-size: 20px;}
+.video-overlay p.Showcase {
+    font-size: 17px;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 15px;
+    position: relative;
+    padding: 5px;
+}
+.video-overlay i.fa {
+    font-size: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-weight: 200;
+    padding: 2px;
+}
+
+.video-overlay {
+    position: absolute;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    transition: .3s;
+}
+.video-overlay:after {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    content: "";
+    background: #6363ff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+a.single-video-link:hover .video-overlay:after {
+    visibility: visible;
+    opacity: .5;
+    z-index: -1;
+    width:100%;
+    height: 100%;
+}
