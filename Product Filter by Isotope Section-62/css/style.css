@@ -1,0 +1,122 @@
+a, a:hover{text-decoration: none;}
+.section-padding {padding: 80px 0;}
+
+
+
+.product-bg-1 {background-image: url(../img/1.png);}
+.product-bg-2 {background-image: url(../img/1.png);}
+.product-bg-3 {background-image: url(../img/1.png);}
+.product-bg-4 {background-image: url(../img/1.png);}
+.product-bg-5 {background-image: url(../img/1.png);}
+.product-bg-6 {background-image: url(../img/1.png);}
+
+
+
+ul.project-filter {
+    margin: 0 0 50px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.project-filter li {
+    display: inline-block;
+    margin: 5px;
+    font-weight: 700;
+    color: #888;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+ul.project-filter li.active {
+    border-color: #999;
+}
+
+.single-project-item {
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 30px;
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.project-hover {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+    transition: .3s;
+    text-transform: lowercase;
+    font-weight: 300;
+    transform: scale(.8);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.project-hover:after {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    z-index: -1;
+}
+
+.project-hover h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.project-hover p:last-child {
+    margin: 0;
+}
+
+.single-project-item:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 25%;
+    height: 25%;
+    border-top: 1px solid #333;
+    border-right: 1px solid #333;
+    z-index: 105;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.single-project-item:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    height: 25%;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    z-index: 105;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.single-project-item:hover .project-hover {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+.single-project-item:hover.single-project-item:after, .single-project-item:hover.single-project-item:before {
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,166 @@
+html, body {
+	height: 100%;
+}
+
+
+.right-area {
+	background-image: url(../img/Coffee.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #fff;
+	width: 80%;
+	margin-left: 20%;
+	height: 100%;
+	display: table;
+	position: relative;
+	z-index: 2;
+}
+
+.right-area:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background: #333;
+	opacity: .5;
+	z-index: -1;
+}
+
+.right-area-wrap {
+	display: table-cell;
+	vertical-align: middle;	
+}
+
+.right-area h1 {
+	font-size: 60px;
+	color: #fff;
+}
+.right-area h1 span {
+	color: #FBD56E;
+	position: relative;
+}
+.right-area h1 span:after {
+	position: absolute;
+	right: -15%;
+	bottom: 18%;
+	background: #FBD56E;
+	content: "";
+	height: 3px;
+	width: 10%;
+}
+.right-area p {
+	color: #fff;
+	font-size: 16px;
+	margin: 30px 0;
+}
+
+
+.right-area-wrap a {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	padding: 15px 40px;
+	border-radius: 50px;
+	margin-top: 50px;
+	background: #fff;
+	opacity: .5;
+	transition: .4s;
+}
+
+.right-area-wrap a:hover {
+	opacity: 1;
+}
+
+.right-area-wrap {
+	padding: 10%;
+}
+
+/*Left Side Start*/
+.left-side {
+	background: #333;
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	text-align: center;
+	color: #fff;
+	/*position: relative;*/
+}
+.logo{
+	position: relative;
+	color: #fff;
+	padding: 50px;
+	z-index: 2;
+	text-align: center;
+}
+
+.logo:before {
+	position: absolute;
+	left: 50% ;
+	margin-left: -60px;
+	margin-top: -60px;
+	top: 50%;
+	width: 120px;
+	height: 120px;
+	background-color: #FFC53D;
+	content: "";
+	border-radius: 50%;
+	z-index: -1;
+	opacity: .1;
+
+}
+
+
+
+.left-side ul.main-menu {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+}
+ul.main-menu li {
+	display: block;
+	padding: 20px;
+	position: relative;
+}
+
+ul.main-menu li a {
+	color: #fff;
+	padding: 8px 0;
+	font-size: 15px;
+	text-decoration: none;
+	transition: .3s;
+	text-transform: uppercase;
+}
+ul.main-menu a:hover {
+	border-bottom: 2px solid #FBD56E;;
+	color: #FBD56E;
+
+}
+
+.social-icons i{
+	display: inline-block;
+	padding: 10px;
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 10%;
+	transition: .3s;
+}
+.social-icons i:hover {
+	color: #FBD56E;
+}
+
+.copyright-area {
+	position: absolute;
+	bottom: 0;
+	left: 17%;
+}
+
+.copyright-area a {
+	color: #FBD56E;
+	text-decoration: none;
+}
+
