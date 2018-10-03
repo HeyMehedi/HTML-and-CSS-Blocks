@@ -1,0 +1,85 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Meie+Script|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+a:hover {text-decoration: none;}
+img{max-width: 100%; height: auto;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 700;
+}
+html, body {height: 100%;}
+body {
+    font-family: 'Roboto', san-serif;
+}
+
+.section-padding { padding: 80px 0; }
+.author-bg-1 {background-image: url(../img/bg.jpeg);position: absolute;background-size: cover;background-position: center;width: 51%;height: 100%;top: 0;right: 0;z-index: -1;/* position: absolute; */}
+
+
+h2.testimonial-title {
+    font-size: 75px;
+    line-height: 2;
+    font-weight: 400;
+    z-index: 1000;
+    margin-bottom: 26px;
+    position: absolute;
+}
+
+h2.testimonial-title span {
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 14px;
+    width: 42%;
+    margin-top: 150px;
+    line-height: 26px;
+}
+
+i.fa.fa-quote-left {
+    font-size: 23px;
+    color: #bfa648;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.testimonial-author h3 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-transform: capitalize;
+    opacity: 1;
+    color: #333;
+}
+
+.testimonial-author {
+    color: #999;
+}
+
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    bottom: 0;
+    right: 48%;
+    color: red;
+}
+
+.owl-carousel .owl-nav i {
+    font-size: 40px;
+    display: block;
+    background: #dad542;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.owl-carousel .owl-nav i.fa.fa-angle-right {
+    background: #fff;
+    color: #111;
+}
